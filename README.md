@@ -106,7 +106,7 @@ optional arguments: -h, --help                    show this help message and exi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tuvovan/ANL-HDRI/blob/master/LICENSE) file for details
 
 ## References
 [1] Training and Testing dataset - [link](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)
