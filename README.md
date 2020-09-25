@@ -44,7 +44,7 @@ pip install -r requirements.txt
 - Test ANL-HDRI
     - Download weights [here](https://drive.google.com/file/d/1G94mGLbKSLcvzl9CRs5WY305meG13pWh/view?usp=sharing)
     ```
-    python test.py
+    python test.py --weight_test_path ANLNet.h5 --test_path Test/EXTRA/001/
     ```
 ## Usage
 ### Training
