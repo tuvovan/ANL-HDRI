@@ -52,7 +52,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 
 	# Input Parameters
-	parser.add_argument('--test_path', type=str, default="dataset/64/")
+	parser.add_argument('--test_path', type=str, default="Test/EXTRA/001/")
 	parser.add_argument('--gpu', type=str, default='0')
 	parser.add_argument('--weight_test_path', type=str, default= "weights/best.h5")
 	parser.add_argument('--filter', type=int, default= 32)
