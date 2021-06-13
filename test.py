@@ -20,6 +20,7 @@ from tensorflow.keras.layers import Concatenate, Conv2D, Input
 def get_test_data(images_path):
     file1 = open(os.path.join(images_path, 'exposure.txt'), 'r') 
     Lines = file1.readlines() 
+    t = [float(k) for k in Lines]
     batch_np = np.zeros([3, 768, 1024, 6])
     list_file = sorted(glob.glob(os.path.join(images_path, '*.tif')))
     for j, f in enumerate(list_file):
